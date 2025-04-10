@@ -48,6 +48,7 @@ export default function Navbar() {
         {/* Mobile menu button */}
         <div className="flex md:hidden">
           <ModeToggle />
+          <UserButton/>
           <Button
             variant="ghost"
             className="ml-2 px-0 text-base hover:bg-transparent focus:ring-0"
