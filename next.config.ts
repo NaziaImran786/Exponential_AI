@@ -12,13 +12,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
         search: '',
       },
-      // {
-      //   protocol: "https",
-      //   hostname: "randomuser.me",
-      //   port: "",
-      //   pathname: "**",
-      //   search: "",        
-      // },
+      
     ],
   },
 };
@@ -26,14 +20,4 @@ const nextConfig: NextConfig = {
 export default nextConfig;
 
 
-// module.exports = {
-//   async redirects() {
-//     return [
-//       {
-//         source: '/sign-in',
-//         destination: '/auth/sign-in',  // Make sure this points to the correct path
-//         permanent: false,
-//       },
-//     ];
-//   },
-// };
+
